@@ -1,0 +1,120 @@
+
+/*full header container*/
+
+header {
+	overflow: hidden;
+	padding: 0px 15px;
+	border-bottom: 1px solid gray;
+}
+
+/*header inside all divs*/
+
+header div{
+	float: left;
+	text-align: center;
+	line-height: 0px;
+	padding:0px 12px;
+}
+
+/*header inside p, spans*/
+
+header p{font-size: 10px;}
+header span{font-size: 15px;}
+
+/*macy logo image*/
+
+#head_left img{
+	vertical-align: middle;
+	padding: 12px 0px;
+}
+
+#head_left{
+	vertical-align: middle;
+	padding: 0px 0px;
+}
+
+/*HELP and FAQ container*/
+
+#head_right{
+	float: right;
+	vertical-align: middle;
+	padding: 8px 0px;
+}
+
+/*Media queries for mobile responsive*/
+/*for iPhone 5 (portrait &amp; landscape)*/
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+header {
+	overflow: hidden;
+	padding: 0px 5px;
+}
+header div {
+    /*float: none !important;*/
+    display: block;
+    text-align: center;
+    padding: 2px 5px;
+  }
+#head_left{
+	vertical-align: middle;
+	padding: 10px 0px;
+  }
+#head_right {
+     padding: 4px 0px;
+  }
+.img1{
+	vertical-align: middle;
+	height: 22px;
+}
+.img2{
+	vertical-align: middle;
+	height:20px;
+}
+
+#head_left img{
+	vertical-align: middle;
+	padding: 0px 0px;
+}
+
+header p{font-size: 7px;}
+header span{font-size: 9px;}
+}
+
+@media only screen
+and (max-device-width : 320px){
+header {
+	overflow: hidden;
+	padding: 0px 5px;
+}
+header div {
+    /*float: none !important;*/
+    display: block;
+    text-align: center;
+    padding: 2px 5px;
+  }
+#head_left{
+	vertical-align: middle;
+	padding: 10px 0px;
+  }
+#head_right {
+     padding: 4px 0px;
+  }
+.img1{
+	vertical-align: middle;
+	height: 22px;
+}
+.img2{
+	vertical-align: middle;
+	height:20px;
+}
+
+#head_left img{
+	vertical-align: middle;
+	padding: 0px 0px;
+}
+
+header p{font-size: 7px;}
+header span{font-size: 9px;}
+}

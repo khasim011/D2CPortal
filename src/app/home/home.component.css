@@ -1,0 +1,211 @@
+#homeWrapper{
+	/*margin:80px auto;*/
+	vertical-align: middle;
+	/*justify-content: center;*/
+	align-items: center;
+	height: 100%;
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    vertical-align: middle;
+
+
+
+    /*display: flex;*/
+}
+/* full container of the homewrapper*/
+.flex-container {
+ width:75%;
+  margin:0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: ;
+  padding:50px 50px; 
+  vertical-align: middle;
+  
+  }
+
+.flex-container div {
+	 width: 280px;
+	 height: 150px;
+	 text-align: center;
+	 background-color: white;
+	 border: 1px solid black;
+	 margin: 10px;
+	 padding: 15px;
+	 cursor: pointer;
+	 /*font-weight: bolder;*/
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+
+.flex-container {
+  width:100%;
+  margin:0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: ;
+  padding:110px 105px; 
+  }
+
+.flex-container div {
+	 width: 250px;
+	 height: 145px;
+	 text-align: center;
+	 background-color: white;
+	 margin: 10px;
+	 padding: 17px;
+	 border: 1px solid black;
+}	
+}
+
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+
+.flex-container {
+  width:100%;
+  margin:0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: ;
+  padding:110px 105px; 
+  }
+
+.flex-container div {
+	 width: 250px;
+	 height: 145px;
+	 text-align: center;
+	 background-color: white;
+	 margin: 10px;
+	 padding: 17px;
+	 border: 1px solid black;
+	 
+}	
+
+
+
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+
+.flex-container {
+ width:100%;
+  margin:0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: ;
+  padding:230px 68px; 
+  }
+
+.flex-container div {
+	 width: 195px;
+	 height: 130px;
+	 text-align: center;
+	 background-color: white;
+	 margin: 7px;
+	 padding: 13px;
+	 border: 1px solid black;
+	 
+}	
+}
+.flex-container object{
+	width: 45px;
+}
+/* iPhone 5 (portrait &amp; landscape)----------- */
+@media only screen
+and (min-device-width : 321px)
+and (max-device-width : 740px) {
+
+.flex-container {
+ width:100%;
+  margin:0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding:30px 7px; 
+  justify-content: center;
+  }
+
+.flex-container div {
+	 width: 145px;
+	 height: 125px;
+	 text-align: center;
+	 background-color: white;
+	 border: 0px solid black;
+	 margin: 4px;
+	 padding: 10px;
+	 border: 1px solid black;
+	}
+
+/*.flex-container object{
+	width: 45px;
+	}*/
+}
+
+/* iPhone 5 (landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 740px)
+and (orientation : landscape) {
+.flex-container {
+ width:85%;
+  margin:0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: ;
+  padding:25px 40px; 
+  justify-content: flex-start;
+  }
+
+.flex-container div {
+	 width: 145px;
+	 height: 125px;
+	 text-align: center;
+	 background-color: white;
+	 border: 0px solid black;
+	 margin: 4px;
+	 padding: 10px;
+	 border: 1px solid black;
+	}
+}
+
+/* small phones (portrait &amp; landscape)----------- */
+@media only screen
+and (max-device-width : 320px) {
+
+.flex-container {
+ width:100%;
+  margin:0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding:30px 33px; 
+  }
+
+.flex-container div {
+	 width: 120px;
+	 height: 100px;
+	 text-align: center;
+	 background-color: white;
+	 border: 0px solid black;
+	 margin: 2px;
+	 padding: 5px;
+	 border: 1px solid black;
+	}
+p{font-size: 10px}
+.flex-container object{
+	width: 40px;
+	}
+}
+
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ED0FC7EC-A3E8-4185-BB9E-3CAB5ECBA174</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="98.0308675%" y1="0.160599572%" x2="58.8877062%" y2="40.7655246%" id="linearGradient-1">
+            <stop stop-color="#0052CC" offset="18%"></stop>
+            <stop stop-color="#2684FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="3739.42064%" y1="3462%" x2="2058.27826%" y2="5116%" id="linearGradient-2">
+            <stop stop-color="#0052CC" offset="18%"></stop>
+            <stop stop-color="#2684FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Tool-Services" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-122.000000, -659.000000)">
+        <g id="JIRA" transform="translate(122.000000, 659.000000)" fill-rule="nonzero">
+            <path d="M47.7847222,0 L23.7708333,0 C23.7708333,2.87502042 24.9129307,5.63228749 26.9458772,7.66523393 C28.9788236,9.69818036 31.7360907,10.8402778 34.6111111,10.8402778 L39.0347222,10.8402778 L39.0347222,15.1111111 C39.0385528,21.0926085 43.8865582,25.9406138 49.8680556,25.9444444 L49.8680556,2.08333333 C49.8680556,0.932740105 48.9353155,7.04535157e-17 47.7847222,0 Z" id="Shape" fill="#2684FF"></path>
+            <path d="M35.9027778,11.9652778 L11.8888889,11.9652778 C11.8927195,17.9467752 16.7407248,22.7947805 22.7222222,22.7986111 L27.1458333,22.7986111 L27.1458333,27.0833333 C27.153497,33.0648288 32.0046108,37.9097271 37.9861111,37.9097222 L37.9861111,14.0486111 C37.9861111,12.8980179 37.053371,11.9652778 35.9027778,11.9652778 Z" id="Shape" fill="url(#linearGradient-1)"></path>
+            <path d="M24.0138889,23.9236111 L0,23.9236111 C7.33186254e-16,29.9105312 4.85335768,34.7638889 10.8402778,34.7638889 L15.2777778,34.7638889 L15.2777778,39.0347222 C15.2815951,45.0108048 20.1211495,49.8565717 26.0972222,49.8680556 L26.0972222,26.0069444 C26.0972222,24.8563512 25.1644821,23.9236111 24.0138889,23.9236111 Z" id="Shape" fill="url(#linearGradient-2)"></path>
+        </g>
+    </g>
+</svg>
